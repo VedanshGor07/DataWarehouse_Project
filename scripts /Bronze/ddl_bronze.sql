@@ -19,6 +19,7 @@ DROP TABLE IF EXISTS bronze.crm_prdct_info;
 CREATE TABLE bronze.crm_prdct_info(
 prd_id INT,
 prd_key NVARCHAR(50),
+cat_id NVARCHAR(50) ,
 prd_nm NVARCHAR(50),
 prd_cost int,
 prd_line NVARCHAR(50) ,
